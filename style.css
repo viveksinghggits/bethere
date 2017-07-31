@@ -1,0 +1,129 @@
+@font-face {
+    src: url(Open_Sans/OpenSans-Regular.ttf);
+    font-family: "OpenSansRegular";
+}
+
+* {
+    font-family: "OpenSansRegular";
+    margin: 0px;
+}
+
+body {
+    background-image: url("grey.png");
+}
+
+#links {
+    font-weight: bold;
+    margin: auto;
+    width: 90px;
+}
+
+#header {
+    background-color: bisque;
+    padding: 20px;
+}
+
+#wrapper {
+    width: 300px;
+    //height: 400px;
+}
+
+.text-cen {
+    text-align: center;
+}
+
+#intro {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#regFormTable,
+#logFormTable {
+    margin: auto;
+    text-align: center;
+}
+
+#regFormDivHead {
+    width: 225px;
+    margin: auto;
+    padding: 10px;
+    background-color: bisque;
+}
+
+#loginFormDiv {
+    display: none;
+}
+
+#regFormDiv {
+    margin-top: 20px;
+    display: none;
+}
+
+#regFormTable input,
+#logFormTable input {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #E0E0E0;
+}
+
+#thisurl {
+    margin-top: 20px;
+    color: green;
+}
+
+.successbox {
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid gray;
+    width: 80%;
+    margin: auto;
+}
+
+.normfont {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#footer {
+    border: 1px solid #E0E0E0;
+    padding: 10px;
+    text-align: center;
+    color: #1A237E;
+}
+
+.err {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+#bethereurl {
+    display: none;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+#bethereurl input {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #ff2c2c;
+    background-color: bisque;
+}
+
+#btu {
+    border-bottom: 2px solid bisque;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
